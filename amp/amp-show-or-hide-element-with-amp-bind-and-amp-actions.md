@@ -2,12 +2,11 @@
 
 请首先在开发者工具中检查目标元素是否被页面其他元素遮挡，检查目标元素CSS设置，是否存在颜色与背景色一致，透明度设置为0，位置在viewport以外的情况。
 
-## 功能实现方式
-
+功能实现方式：
 * [使用amp-bind组件和show/hide方法](#amp-bind-show-hide)
 * [使用amp-bind组件和setState更新元素hidden属性](#amp-bind-amp-setState)
 
-## 解决方案
+### 解决方案
 
 #### 使用amp-bind组件和show/hide方法 {#amp-bind-show-hide}
 

@@ -6,7 +6,9 @@
 
 * [AMP 验证错误](amp/amp-yan-zheng-cuo-wu.md)
 * [AMP 检查列表](amp/amp-jian-cha-lie-biao.md)
-* [使用amp-bind和show/hide事件展示或隐藏元素](amp/amp-show-or-hide-element-with-amp-bind-and-amp-actions.md)
+* AMP 问题列表
+    * [隐藏的元素无法通过触发事件展示](amp/amp-show-or-hide-element-with-amp-bind-and-amp-actions.md)
+    * [AMP页面关闭弹出提示在non-AMP页面仍然会出现](amp/amp-sync-amp-consent-status.md)
 
 ## PWA
 
