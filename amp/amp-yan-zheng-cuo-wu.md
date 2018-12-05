@@ -6,3 +6,13 @@
 
 [AMP 验证错误完整概述（英文）](https://github.com/ampproject/amphtml/blob/master/validator/validator-main.protoascii)
 
+* [Origin of &lt;amp-iframe&gt; must not be equal to container](#origin-of-amp-iframe)
+
+---
+
+#### Origin of &lt;amp-iframe&gt; must not be equal to container {#origin-of-amp-iframe}
+
+amp-iframe的sandbox属性如果添加了allow-same-origin，引入的内嵌页面不能和父级页面在同一个域名，要放在二级域名或者其他域名。
+文档参考（[Iframe origin policy](https://github.com/ampproject/amphtml/blob/master/spec/amp-iframe-origin-policy.md)）
+
+
