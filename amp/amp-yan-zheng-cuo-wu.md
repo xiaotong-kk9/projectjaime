@@ -6,8 +6,6 @@
 
 [解决验证错误（中文）](https://www.ampproject.org/zh_cn/docs/fundamentals/converting/resolving-errors)
 
-https://www.ampproject.org/zh_cn/docs/fundamentals/converting/resolving-errors
-
 [AMP 验证错误完整概述（英文）](https://github.com/ampproject/amphtml/blob/master/validator/validator-main.protoascii)
 
 * [Origin of &lt;amp-iframe&gt; must not be equal to container](#origin-of-amp-iframe)
