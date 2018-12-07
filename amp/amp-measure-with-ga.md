@@ -2,6 +2,7 @@
 
 * [使用 Custom Reports 查看 AMP 作为自然搜索落地页速度及表现](#custom-report-organic-search)
 * [使用 Custom Reports 查看 AMP 作为广告落地页速度及表现](#custom-report-google-cpc)
+* [为什么报告结果显示有网页浏览量（Page View）但平均网页加载时间（Avg. Page Load Time）为0.00](#speed-equals-zero)
 
 #### 使用 Custom Reports 查看 AMP 作为自然搜索落地页速度及表现 {#custom-report-organic-search}
 
@@ -49,3 +50,31 @@
 
   5. 保存后调整日期查看
 
+
+
+#### 为什么报告结果显示有网页浏览量但速度为0.00 {#speed-equals-zero}
+  
+  默认情况下，系统固定对 1% 的用户进行抽样，构成数据池，由此生成“网页计时”指标。（[参考文档](https://support.google.com/analytics/answer/1205784?hl=zh-Hans)）
+
+  调整抽样率需要设置amp-analytics代码中的sampleSpec。（[参考文档](https://www.ampproject.org/docs/reference/components/amp-analytics#triggers)）
+
+  ```javascript
+  'triggers': {
+    'sampledOnRandom': {
+      'on': 'visible',
+      'request': 'request',
+      'sampleSpec': {
+        'sampleOn': '${random}',
+        'threshold': 50,
+      },
+    },
+    'sampledOnClientId': {
+      'on': 'visible',
+      'request': 'request',
+      'sampleSpec': {
+        'sampleOn': '${clientId(cookieName)}',
+        'threshold': 1,
+      },
+    },
+  },
+  ```
