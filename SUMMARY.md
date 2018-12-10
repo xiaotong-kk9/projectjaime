@@ -12,7 +12,8 @@
 
 * [缓存策略の选择](pwa/pwa-cache-strategy.md)
 * PWA开发Q&A
-    * [LifeCycle(生命周期）](pwa/Q&A/lifecycle.md)
+    * [Overall PWA Structure(总体PWA架构)](pwa/Q&A/overallPWAStructure.md)
+    * [Service Worker(服务工作者)](pwa/Q&A/Service-Worker.md)
     * [Add to Homescreen(添加到主屏幕)](pwa/Q&A/a2hs.md)
     * [Web App Manifest(网络应用清单）](pwa/Q&A/webAppManifest.md)
     * [Push & Notification(推送与通知)](pwa/Q&A/push&Notification.md)

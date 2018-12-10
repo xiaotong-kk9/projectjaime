@@ -1,5 +1,6 @@
 #其他问题
 
+##内容列表：
 
 #### [清空浏览器缓存是否代表service worker卸载？从此是不是不会收到push事件推送过来的消息了？](#清空浏览器缓存是否代表service worker卸载？从此是不是不会收到push事件推送过来的消息了？)
 #### [遇到了DOMException: Quota exceeded这个错误，怎么破？](#遇到了DOMException: Quota exceeded这个错误，怎么破？)
