@@ -2,6 +2,7 @@
 
 [AMP](https://www.ampproject.org/) 项目是一个开放源代码计划，旨在为所有人打造更好的网络体验。借助该项目，用户可以打造出在各种设备和分发平台上都能始终如一地快速加载且效果出色的精美网站和广告。
 
+* [AMP Github地址](https://github.com/ampproject/amphtml)
 * [AMP 官方文档](https://www.ampproject.org/docs/)
 * [AMP 官方示例](https://ampbyexample.com/)
 * [AMP Start 官方模板](https://www.ampstart.com/)
