@@ -3,11 +3,11 @@
 ####关于AMP，我们可以理解为AMP实际是上自己实现了一套构建页面的方式，AMP页面由三大核心组件 AMP HTML, AMP JS, AMP Cache组成:
 * AMP HTML其实有一系列带有AMP标记的属性或者组件组成，例如 amp-img, amp-list等等。
 * AMP JS实际上就是我们引入这些组件的基础依赖，同时也包括了一系列的资源管理，[最佳性能做法](https://www.ampproject.org/zh_cn/learn/about-how/)的控制。AMP可以动态控制资源的加载顺序，同时控制所有外部内容均为异步加载，这一定程度上保证了用户的浏览体验，AMP也能够保证资源请求必须是优先级较大的才会优先请求。举个栗子，某些图片或者广告，当用户可能会查看到或快速滚动到他们时，AMP才会进行资源的请求，这样能减少带宽的压力，同时也能保证用户的体验。
-* AMP Cache是一个具有代理功能的内容分发网络(CND),可以[验证通过的AMP页面](https://github.com/ampproject/amphtml/blob/master/spec/amp-html-format.md)通过缓存放置到遍布全世界的Google AMP Cache.
+* AMP Cache是一个具有代理功能的内容分发网络(CND),可以把[验证通过的AMP页面](https://github.com/ampproject/amphtml/blob/master/spec/amp-html-format.md)通过缓存放置到遍布全世界的Google AMP Cache服务器.
   * AMP Cache缓存的[内容](https://developers.google.com/amp/cache/overview#amp-cache-url-format)不仅仅是AMP HTML，还包括image, font等引用文件。
-  * AMP Cache采用的是stale-while-revalidate的缓存策略，简单解释一下，这个缓存策略意思是当用户请求资源的时候，先会返回当前版本的资源，然后会去服务器请求资源是否有更新，如果有则更新当前的资源并Cache到AMP Cache服务器，那么如果用户再次请求，拿到的资源就是最新的了。
+  * AMP Cache采用的是stale-while-revalidate的缓存策略，这个缓存策略意思是当用户请求资源的时候，先会返回当前版本的资源，然后会去服务器请求资源是否有更新，如果有则更新当前的资源并Cache到AMP Cache服务器，那么如果用户再次请求，拿到的资源就是最新的了。
   * AMP Cache更新机制，页面为15秒更新一次，其他资源为1分钟更新一次，这可能会变更，请注意。
-  * 如果想要控制AMP页面内容的更新，那么可以参考[更新AMP内容](https://developers.google.com/amp/cache/update-cache)的教程。(较适用于对时效性较高的发布者，例如新闻网站)。亲测删除或者更新时间一般为2-30分钟不等。如果想要及时更新自己的页面，那么请参考如何使用[AMP update cache](amp-update-cache.md)。
+  * 如果想要控制AMP页面内容的更新，例如您是从事新闻且对时效性较高的发布者，那么你可能需要这个。亲测删除或者更新时间一般为2-30分钟不等，如果想要及时更新自己的页面，那么请参考如何使用[使用update-cache进行AMP内容更新](./amp-update-cache.md)教程。
 
 ####那么，了解了AMP的实现方式之后，我们可能就想要知道怎么去做一个AMP，我们可以通过两个代码实验来了解一下AMP页面的实现方式。
 * [AMP基础入门代码实验](https://codelabs.developers.google.com/codelabs/accelerated-mobile-pages-foundations/#0)
