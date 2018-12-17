@@ -1,8 +1,8 @@
-#使用PHP进行AMP缓存更新(AMP update cache using PHP)
+#使用PHP进行AMP内容更新(Update AMP Content using PHP)
 
 1. 生成一对公钥以及私钥。(Generate a pair of RSA keys)
 2. 将公钥改名为apikey.pub, 放到服务器中例如以下的结构中: https://example.com/.well-known/amphtml/apikey.pub, 并且response type为"text/plain;charset=UTF-8"。（Rename the public key as apikey.pub, and post the public key on the domain to be refreshed at the following location: "https://example.com/.well-known/amphtml/apikey.pub"）
-3. 使用私钥对想要更新的页面进行加密并且发送http请求AMP Cache服务器进行AMP页面的更新.(Sign the AMP url and send the request using http to make a update on AMP Cache Server.)
+3. 使用私钥对想要更新的页面进行签名加密并且发送http请求AMP Cache服务器进行AMP页面的更新.(Sign the AMP url and send the request using http to make a update on AMP Cache Server.)
 
 ##1. 生成一对公钥以及私钥
 
@@ -10,7 +10,7 @@
 // 生成私钥
 openssl genrsa 2048 > private-key.pem
 
-//生成公约
+// 生成公钥
 openssl rsa -in private-key.pem -pubout >public-key.pem
 ````
 
@@ -20,11 +20,11 @@ openssl rsa -in private-key.pem -pubout >public-key.pem
 ![Image](../../resource/img/privatekey.png)
 
 
-##2. 将公钥改名为apikey.pub, 放到服务器中例如以下的结构中
+##2. 将公钥(public-key.pem)改名为apikey.pub, 放到服务器中例如以下的结构中
 
 
 ````
-// 对public-key进行重命名
+// 对公钥(public-key.pem)进行重命名
 mv public-key.pem apikey.pub
 ````
 
