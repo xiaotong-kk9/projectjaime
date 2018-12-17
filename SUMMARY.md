@@ -17,7 +17,7 @@
 * 布局(Layout)相关问题
   * [响应式页面AMP组件media不生效](amp/amp-rwd-media-not-work.md)
 <!-- * 媒体(Media)相关问题 -->
-* 呈现(Presentation)相关问题
+* [呈现(Presentation)相关问题](amp/amp-presentation.md)
   * [AMP缓存更新(AMP update cache)](amp/amp-update-cache.md)
     * [使用PHP进行Update-cache](amp/amp-update-cache-php.md)
     * [使用Linux shell进行update-cache](amp/amp-update-cache-linux-shell.md)
