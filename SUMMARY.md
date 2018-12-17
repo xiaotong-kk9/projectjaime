@@ -19,9 +19,9 @@
 <!-- * 媒体(Media)相关问题 -->
 * [呈现(Presentation)相关问题](amp/amp-presentation.md)
   * [AMP缓存更新(AMP update cache)](amp/amp-update-cache.md)
-    * [使用PHP进行Update-cache](amp/amp-update-cache-php.md)
-    * [使用Linux shell进行update-cache](amp/amp-update-cache-linux-shell.md)
-    * [使用Python进行updae-cahce](amp/amp-update-cache-python.md)
+    * [使用PHP进行AMP内容更新(Update AMP Content using PHP)](amp/amp-update-cache-php.md).
+    * [使用Linux Shell进行AMP内容更新(Update AMP Content using Linux Shell)](amp/amp-update-cache-linux-shell.md).
+    * [使用Python进行AMP内容更新(Update AMP Content using Python)](amp/amp-update-cache-python.md)
 <!-- * 社交(Social)相关问题 -->
 
 
