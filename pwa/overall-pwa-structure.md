@@ -1,6 +1,6 @@
-# verall PWA Structure(总体PWA架构)
+# Overall PWA Structure(总体PWA架构)
 
-##问题列表：
+##问题列表:
 
 * [构建PWA时使用什么架构比较好?](./overall-pwa-structure/which-structure-works-well-for-pwa.md)
 * [现在PWA特性在浏览器中支持情况如何？](./overall-pwa-structure/pwa-feature-suppport-status.md)

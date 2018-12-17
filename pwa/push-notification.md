@@ -1,6 +1,6 @@
 #Push & Notification系列
 
-##问题列表： 
+##问题列表: 
 
 * [想要快速入门Push & Notification,有什么推荐？](./push-notification/quick-start-for-push-notification.md)
 * [如果想要展示Notification需要注意些什么？](./push-notification/caution-by-showing-notification.md)

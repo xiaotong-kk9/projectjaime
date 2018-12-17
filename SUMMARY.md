@@ -5,6 +5,7 @@
 ## AMP
 
 * [关于 AMP](amp/amp-about-amp.md)
+* [AMP 入门指南](amp/amp-get-started.md)
 * [AMP 验证错误](amp/amp-yan-zheng-cuo-wu.md)
 * [AMP 检查列表](amp/amp-jian-cha-lie-biao.md)
 * [使用 Google Analytics 查看 AMP 速度及表现](amp/amp-measure-with-ga.md)
@@ -16,7 +17,11 @@
 * [布局(Layout)相关问题](amp/amp-category-layout.md)
   * [响应式页面AMP组件media不生效](amp/amp-rwd-media-not-work.md)
 <!-- * 媒体(Media)相关问题 -->
-<!-- * 呈现(Presentation)相关问题 -->
+* 呈现(Presentation)相关问题
+  * [AMP缓存更新(AMP update cache)](amp/amp-update-cache.md)
+    * [使用PHP进行Update-cache](amp/amp-update-cache-php.md)
+    * [使用Linux shell进行update-cache](amp/amp-update-cache-linux-shell.md)
+    * [使用Python进行updae-cahce](amp/amp-update-cache-python.md)
 <!-- * 社交(Social)相关问题 -->
 
 
