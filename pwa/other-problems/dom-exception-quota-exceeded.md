@@ -1,4 +1,4 @@
-## 遇到了DOMException: Quota exceeded这个错误，怎么破？
+# 遇到了DOMException: Quota exceeded这个错误，怎么破？
 
 有以下几点建议：
 
@@ -13,4 +13,5 @@
 
 [Managing quota - Chrome](https://developer.chrome.com/apps/offline_storage#managing_quota)
 
-PS: navigator对象在Service worker中也可用(Safari下没有[NavigatorStorage](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorStorage/storage)对象，望周知)。
+PS: navigator对象在Service worker中也可用\(Safari下没有[NavigatorStorage](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorStorage/storage)对象，望周知\)。
+
