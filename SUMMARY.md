@@ -7,6 +7,7 @@
 * [关于 AMP](amp/amp-about-amp.md)
 * [AMP 验证错误](amp/amp-yan-zheng-cuo-wu.md)
 * [AMP 检查列表](amp/amp-jian-cha-lie-biao.md)
+* [AMP 谷歌搜索收录常见问题](amp/amp-index-faq.md)
 * [使用 Google Analytics 查看 AMP 速度及表现](amp/amp-measure-with-ga.md)
 * [不同方式访问AMP页面的区别](amp/differences-between-accessing-amp-pages-in-different-ways.md)
 <!-- * 广告和统计(Ads & analytics)相关问题 -->
