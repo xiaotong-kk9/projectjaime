@@ -29,13 +29,13 @@ Hello Webmasters!
 
 如何为了收录优化网站：
 
-* [网站站长指南（中文）](https://support.google.com/webmasters/answer/35769)
+* [网站站长指南（中文）](https://support.google.com/webmasters/answer/35769?hl=zh-Hans)
 
 * [优化你的爬取和收录](https://webmasters.googleblog.com/2009/08/optimize-your-crawling-indexing.html)
 
-* [搜索引擎优化 (SEO) 新手指南（最佳实践）（中文）](https://support.google.com/webmasters/answer/7451184?vid=0-624057219926-1543423419632)
+* [搜索引擎优化 (SEO) 新手指南（最佳实践）（中文）](https://support.google.com/webmasters/answer/7451184?vid=0-624057219926-1543423419632&hl=zh-Hans)
 
-* [与 Google 搜索中的 AMP 网页相关的准则（中文）](https://support.google.com/webmasters/answer/6340290)
+* [与 Google 搜索中的 AMP 网页相关的准则（中文）](https://support.google.com/webmasters/answer/6340290?hl=zh-Hans)
 
 
 #### Q：如果我发布了 X 个 AMP 页面，收录需要多长时间？什么因素会影响爬虫对页面的选取？（假设规范页面（Canonical Page）已被爬取收录和未被爬取收录）
@@ -93,12 +93,12 @@ Hello Webmasters!
 
 一小部分本身不是问题。
 * 请使用 Search Console 来查看网站中发现的AMP页面大致的统计数字。请查看“搜索曝光”下面的“[ Accelerated Mobile Pages ](https://www.google.com/webmasters/tools/accelerated-mobile-pages)”。
-* 谷歌搜索可能没有发现网站中所有的 AMP 页面。这是正常情况，随着谷歌搜索发现 AMP 页面，会随时间推移而提升。我们建议使用[站点地图](https://support.google.com/webmasters/answer/156184)去提醒谷歌新增和更新的页面。
+* 谷歌搜索可能没有发现网站中所有的 AMP 页面。这是正常情况，随着谷歌搜索发现 AMP 页面，会随时间推移而提升。我们建议使用[站点地图](https://support.google.com/webmasters/answer/156184?hl=zh-Hans)去提醒谷歌新增和更新的页面。
 * 谷歌爬虫在努力不去引发网站服务基础架构问题。爬取会受到网站响应的限制。爬虫试图优先爬取和收录网站中最有用的页面。更多信息请参考[爬取的优先级](https://webmasters.googleblog.com/2017/01/what-crawl-budget-means-for-googlebot.html)
 
 参考资料：
 
-* [在 Google 上占有一席之地](https://support.google.com/webmasters/answer/6259634?hl=zh-Hans)
+* [在 Google 上占有一席之地（中文）](https://support.google.com/webmasters/answer/6259634?hl=zh-Hans)
 
 
 #### Q: 为什么我的搜索结果中同时出现了 AMP 和 non-AMP 的结果？
@@ -114,7 +114,7 @@ Hello Webmasters!
 
 * 桌面端应该通过 <link rel="amphtml"> 指向 AMP
 
-请参考[这个页面](https://www.ampproject.org/docs/getting_started/create/prepare_for_discovery)获得更多信息。
+请参考[这个页面（中文）](https://www.ampproject.org/zh_cn/docs/getting_started/create/prepare_for_discovery)获得更多信息。
 
 
 AMP同样可以作为独立的规范页面（Canonical）来承担所有流量。在很多例子中，没有必要存在单独的桌面端网站或者移动端网站（m.）。
@@ -126,11 +126,11 @@ AMP同样可以作为独立的规范页面（Canonical）来承担所有流量�
 
 * 移动端：通过 <link rel="canonical"> 指向桌面端，通过 rel=amphtml 指向AMP（移动端应该要和桌面端内容一致）
 
-* AMP：通过 <link rel="canonical"> 指向桌面端。
+* AMP：通过 <link rel="canonical"> 指向桌面端
 
 参考资料：
 
-* [准备页面以供发现和分发](https://www.ampproject.org/docs/getting_started/create/prepare_for_discovery)
+* [准备页面以供发现和分发（中文）](https://www.ampproject.org/zh_cn/docs/getting_started/create/prepare_for_discovery)
 
 
 #### Q: 为什么我的AMP页面没有在热点新闻轮播（Top stories carousel）出现？
