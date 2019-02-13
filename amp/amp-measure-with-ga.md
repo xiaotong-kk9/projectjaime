@@ -3,6 +3,7 @@
 * [使用 Custom Reports 查看 AMP 作为自然搜索落地页速度及表现](#custom-report-organic-search)
 * [使用 Custom Reports 查看 AMP 作为广告落地页速度及表现](#custom-report-google-cpc)
 * [为什么报告结果显示有网页浏览量（Page View）但平均网页加载时间（Avg. Page Load Time）为0.00](#speed-equals-zero)
+* [如何进行AMP缓存与非缓存分析](https://support.google.com/analytics/answer/6343176?hl=zh-Hans)
 
 #### 使用 Custom Reports 查看 AMP 作为自然搜索落地页速度及表现 {#custom-report-organic-search}
 

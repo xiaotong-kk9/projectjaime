@@ -10,18 +10,20 @@
 * [AMP 谷歌搜索收录常见问题](amp/amp-index-faq.md)
 * [使用 Google Analytics 查看 AMP 速度及表现](amp/amp-measure-with-ga.md)
 * [不同方式访问AMP页面的区别](amp/differences-between-accessing-amp-pages-in-different-ways.md)
-<!-- * 广告和统计(Ads & analytics)相关问题 -->
-* [动态内容(Dynamic content)相关问题](amp/amp-category-dynamic-content.md)
-  * [隐藏的元素无法通过触发事件展示](amp/amp-show-or-hide-element-with-amp-bind-and-amp-actions.md)
-  * [AMP页面关闭弹出提示在non-AMP页面仍然会出现](amp/amp-sync-amp-consent-status.md)
-* [布局(Layout)相关问题](amp/amp-category-layout.md)
-  * [响应式页面AMP组件media不生效](amp/amp-rwd-media-not-work.md)
-<!-- * 媒体(Media)相关问题 -->
-<!-- * 呈现(Presentation)相关问题 -->
-<!-- * 社交(Social)相关问题 -->
-
+* [动态内容\(Dynamic content\)相关问题](amp/amp-category-dynamic-content/README.md)
+  * [隐藏的元素无法通过触发事件展示](amp/amp-category-dynamic-content/amp-show-or-hide-element-with-amp-bind-and-amp-actions.md)
+  * [AMP页面关闭弹出提示在non-AMP页面仍然会出现](amp/amp-category-dynamic-content/amp-sync-amp-consent-status.md)
+* [布局\(Layout\)相关问题](amp/amp-category-layout/README.md)
+  * [响应式页面AMP组件media不生效](amp/amp-category-layout/amp-rwd-media-not-work.md)
+* [呈现\(Presentation\)相关问题](amp/amp-presentation/README.md)
+  * [如何进行AMP缓存与非缓存分析](https://support.google.com/analytics/answer/6343176?hl=zh-Hans)
+  * [AMP缓存更新\(AMP update cache\)](amp/amp-presentation/amp-update-cache/README.md)
+    * [使用PHP进行AMP内容更新\(Update AMP Content using PHP\)](amp/amp-presentation/amp-update-cache/amp-update-cache-php.md)
+    * [使用Linux Shell进行AMP内容更新\(Update AMP Content using Linux Shell\)](amp/amp-presentation/amp-update-cache/amp-update-cache-linux-shell.md)
+    * [使用Python进行AMP内容更新\(Update AMP Content using Python\)](amp/amp-presentation/amp-update-cache/amp-update-cache-python.md)
 
 ## PWA
+
 * [关于 PWA](pwa/pwa-intro-and-resource.md)
 * [缓存策略の选择](pwa/pwa-cache-strategy.md)
   * [APP Shell（应用外壳）如何选择缓存策略？](pwa/cache-strategy/precache-app-shell.md)
@@ -57,3 +59,7 @@
 * [其他常见问题](pwa/other-problems.md)
   * [清空浏览器缓存是否代表service worker卸载？从此是不是不会收到push事件推送过来的消息了？](pwa/other-problems/clear-explorer-cache-effect.md)
   * [遇到了DOMException: Quota exceeded这个错误，怎么破？](pwa/other-problems/dom-exception-quota-exceeded.md)
+
+## 搜索相关
+
+* [验证谷歌爬虫（Googlebot）](https://support.google.com/webmasters/answer/80553?hl=zh-Hans)
