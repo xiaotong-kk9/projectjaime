@@ -6,7 +6,7 @@
 
 * [关于 AMP](amp/amp-about-amp.md)
 * [AMP 入门指南](amp/amp-get-started.md)
-* [AMP 验证错误](amp/amp-yan-zheng-cuo-wu.md)
+* [AMP 验证错误](amp/amp-validation-errors.md)
 * [AMP 检查列表](amp/amp-jian-cha-lie-biao.md)
 * [AMP 谷歌搜索收录常见问题](amp/amp-index-faq.md)
 * [使用 Google Analytics 查看 AMP 速度及表现](amp/amp-measure-with-ga.md)
@@ -18,7 +18,7 @@
   * [响应式页面AMP组件media不生效](amp/amp-category-layout/amp-rwd-media-not-work.md)
   * [如何使用amp-app-banner在AMP中拉起原生应用\(Native APP\)或者跳转到应用安装界面](amp/amp-category-layout/amp-call-to-action-to-install-app.md)
 * [呈现\(Presentation\)相关问题](amp/amp-presentation/README.md)
-  * [如何进行AMP缓存与非缓存分析](https://support.google.com/analytics/answer/6343176?hl=zh-Hans)
+  * [在列表\(amp-list\)中使用倒计时\(amp-date-countdown\)出现模版报错](amp/amp-presentation/amp-list-amp-date-countdown.md)
   * [AMP缓存更新\(AMP update cache\)](amp/amp-presentation/amp-update-cache/README.md)
     * [使用PHP进行AMP内容更新\(Update AMP Content using PHP\)](amp/amp-presentation/amp-update-cache/amp-update-cache-php.md)
     * [使用Linux Shell进行AMP内容更新\(Update AMP Content using Linux Shell\)](amp/amp-presentation/amp-update-cache/amp-update-cache-linux-shell.md)
