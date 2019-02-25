@@ -1,11 +1,14 @@
 # 在列表（amp-list）中使用倒计时（amp-date-countdown）出现模版报错
 
+功能实现方式：在amp-list的template中直接使用amp-date-countdown及template。
+
 报错信息：The tag 'template' may not appear as a descendant of tag 'template'.
 
 报错原因：模版不能够嵌套使用。
 
-解决方案：将倒计时组件的模板拿到列表（amp-list）外面。
+## 解决方案
 
+### 将倒计时组件的模板拿到列表（amp-list）外面
 
 ```
   <template type="amp-mustache" id="foo">
