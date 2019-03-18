@@ -22,6 +22,8 @@
     * [使用PHP进行AMP内容更新\(Update AMP Content using PHP\)](amp/amp-presentation/amp-update-cache/amp-update-cache-php.md)
     * [使用Linux Shell进行AMP内容更新\(Update AMP Content using Linux Shell\)](amp/amp-presentation/amp-update-cache/amp-update-cache-linux-shell.md)
     * [使用Python进行AMP内容更新\(Update AMP Content using Python\)](amp/amp-presentation/amp-update-cache/amp-update-cache-python.md)
+* [媒体\(Media\)相关问题](amp/amp-category-media/README.md)
+  * [当使用的图片的宽高是不确定时，想要保证图片的比例正常显示，应该怎么处理？](amp/amp-category-media/amp-img-unknown-dimension.md)
 
 ## PWA
 
