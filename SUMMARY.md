@@ -14,6 +14,7 @@
 * [动态内容\(Dynamic content\)相关问题](amp/amp-category-dynamic-content/README.md)
   * [隐藏的元素无法通过触发事件展示](amp/amp-category-dynamic-content/amp-show-or-hide-element-with-amp-bind-and-amp-actions.md)
   * [AMP页面关闭弹出提示在non-AMP页面仍然会出现](amp/amp-category-dynamic-content/amp-sync-amp-consent-status.md)
+  * [AMP-list切换src后，placeholder使用纯文字加载不明显，有什么更好的方法？](amp/amp-category-dynamic-content/amp-list-loading-placeholder.md)
 * [布局\(Layout\)相关问题](amp/amp-category-layout/README.md)
   * [响应式页面AMP组件media不生效](amp/amp-category-layout/amp-rwd-media-not-work.md)
   * [如何使用amp-app-banner在AMP中拉起原生应用\(Native APP\)或者跳转到应用安装界面](amp/amp-category-layout/amp-call-to-action-to-install-app.md)
