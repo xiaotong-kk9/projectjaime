@@ -1,4 +1,4 @@
-# 如何开启AMP Linker并验证
+# [草稿]如何开启AMP Linker并验证
 
 
 * [AMP Linker设置方法](amp-analytics-gtag-gtm.md#amp-linker-implementation)
@@ -6,7 +6,7 @@
 
 ## AMP Linker设置方法<a id="amp-linker-implementation"></a>
 
-### 第一步：在AMP页面设置
+### 第一步：在需要发送Linker的AMP页面设置
 
 #### 使用gtag：
 
@@ -119,8 +119,12 @@
 </amp-analytics>
 ```
 
+### 第二步：在需要接收解析Linker的AMP页面设置
 
-### 第二步：在non-AMP页面设置
+
+
+
+### 第三步：在需要接收解析Linker的non-AMP页面设置
 
 
 #### 如果使用analytics.js：
@@ -134,10 +138,11 @@
 
 
 #### 如果使用GTM：
+
 为google analytics tag添加 Configuration useAmpClientId为true，请参考[文档](https://support.google.com/analytics/answer/7486764?hl=en)的If you use Google Tag Manager部分。
 
 
-### 第三步：使用引荐排除
+### 第四步：使用引荐排除
 
 当 Google 向用户提供 AMP 内容时，它会使用 Google AMP 缓存。您必须使用以下网域添加单个引荐排除项目：cdn.ampproject.org。这样可以防止 Google 提供的所有缓存 AMP 子网域中断会话。
 
