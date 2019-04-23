@@ -11,15 +11,24 @@
 3. 检查 Canonical link 和 amphtml link \([链接](https://www.ampproject.org/docs/fundamentals/discovery)\)
 
    需要确认 AMP 页面和 non-AMP 页面一一对应，canonical link 和 amphtml link 设置正确。
+   
    通常情况下为了SEO友好，建议AMP页面与desktop页面互相链接，mobile站页面与desktop页面互相链接。
+   
    例如：
+   
    首页PC版
+  ```text
     <link rel="alternate" hreflang="en" href="https://m.foo.com/" media="only screen and (max-width: 640px)">【alternate指向m版首页】
     <link rel="amphtml" hreflang="en" href="https://m.foo.com/amp.html">【amphtml指向amp版首页】
+  ```
    首页m版
+  ```text
     <link rel="canonical" href="https://www.foo.com/">【canonical指向pc版首页】
+  ```
    首页amp版
+  ```text
     <link rel="canonical" href="https://www.foo.com/">【canonical指向pc版首页】
+  ```
 
 4. 检查跨域\([链接](https://www.ampproject.org/docs/fundamentals/amp-cors-requests#testing-cors-in-amp)\)
 
