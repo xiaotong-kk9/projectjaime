@@ -24,3 +24,6 @@ style amp-custom 中的css太多，超过50kb，需要减少css代码。
 
 style amp-custom 和 HTML标签上的行内 css 加起来太多，超过50kb，需要减少css代码。
 
+### The tag 'template' may not appear as a descendant of tag 'template'.
+
+template标签不能够嵌套使用，请使用组件的template属性。
