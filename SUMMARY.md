@@ -6,31 +6,22 @@
 
 * [关于 AMP](amp/amp-about-amp.md)
 * [AMP 入门指南](amp/amp-get-started.md)
-* [AMP 验证错误](amp/amp-validation-errors.md)
-* [AMP 检查列表](amp/amp-checklist.md)
+* [AMP 验证错误](amp/amp-yan-zheng-cuo-wu.md)
+* [AMP 检查列表](amp/amp-jian-cha-lie-biao.md)
 * [AMP 谷歌搜索收录常见问题](amp/amp-index-faq.md)
 * [使用 Google Analytics 查看 AMP 速度及表现](amp/amp-measure-with-ga.md)
 * [不同方式访问AMP页面的区别](amp/differences-between-accessing-amp-pages-in-different-ways.md)
-* [广告和追踪\(Ads & analytics\)相关问题](amp/amp-category-ads-analytics/README.md)
-  * [通过参数enabled控制是否发送追踪请求](amp/amp-category-ads-analytics/amp-analytics-trigger-enable.md)
-  <!-- * [（草稿）如何开启AMP Linker并验证](amp/amp-category-ads-analytics/amp-analytics-gtag-gtm.md) -->
 * [动态内容\(Dynamic content\)相关问题](amp/amp-category-dynamic-content/README.md)
   * [隐藏的元素无法通过触发事件展示](amp/amp-category-dynamic-content/amp-show-or-hide-element-with-amp-bind-and-amp-actions.md)
   * [AMP页面关闭弹出提示在non-AMP页面仍然会出现](amp/amp-category-dynamic-content/amp-sync-amp-consent-status.md)
-  * [AMP-list切换src后，placeholder使用纯文字加载不明显，有什么更好的方法？](amp/amp-category-dynamic-content/amp-list-loading-placeholder.md)
-  * [想要使用服务端动态限制amp-date-picker的最大和最小时间的选择区间，可以怎么做？](amp/amp-category-dynamic-content/amp-amp-list-and-amp-date-picker-max-min-date.md)
 * [布局\(Layout\)相关问题](amp/amp-category-layout/README.md)
   * [响应式页面AMP组件media不生效](amp/amp-category-layout/amp-rwd-media-not-work.md)
   * [如何使用amp-app-banner在AMP中拉起原生应用\(Native APP\)或者跳转到应用安装界面](amp/amp-category-layout/amp-call-to-action-to-install-app.md)
 * [呈现\(Presentation\)相关问题](amp/amp-presentation/README.md)
-  * [在列表\(amp-list\)中使用倒计时\(amp-date-countdown\)出现模版报错](amp/amp-presentation/amp-list-amp-date-countdown.md)
-  * [在列表\(amp-list\)中无法完成每两个或每多个为整体循环渲染](amp/amp-presentation/amp-list-multiple-items-iteration.md)
   * [AMP缓存更新\(AMP update cache\)](amp/amp-presentation/amp-update-cache/README.md)
     * [使用PHP进行AMP内容更新\(Update AMP Content using PHP\)](amp/amp-presentation/amp-update-cache/amp-update-cache-php.md)
     * [使用Linux Shell进行AMP内容更新\(Update AMP Content using Linux Shell\)](amp/amp-presentation/amp-update-cache/amp-update-cache-linux-shell.md)
     * [使用Python进行AMP内容更新\(Update AMP Content using Python\)](amp/amp-presentation/amp-update-cache/amp-update-cache-python.md)
-* [媒体\(Media\)相关问题](amp/amp-category-media/README.md)
-  * [当使用的图片的宽高是不确定时，想要保证图片的比例正常显示，应该怎么处理？](amp/amp-category-media/amp-img-unknown-dimension.md)
 
 ## PWA
 
@@ -71,6 +62,3 @@
   * [遇到了DOMException: Quota exceeded这个错误，怎么破？](pwa/other-problems/dom-exception-quota-exceeded.md)
   * [PWA特性在国内的支持情况？](pwa/other-problems/pwa-features-support-status-in-china.md)
 
-## 搜索相关
-
-* [验证谷歌爬虫（Googlebot）](https://support.google.com/webmasters/answer/80553?hl=zh-Hans)
