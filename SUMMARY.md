@@ -22,7 +22,8 @@
     * [使用PHP进行AMP内容更新\(Update AMP Content using PHP\)](amp/amp-presentation/amp-update-cache/amp-update-cache-php.md)
     * [使用Linux Shell进行AMP内容更新\(Update AMP Content using Linux Shell\)](amp/amp-presentation/amp-update-cache/amp-update-cache-linux-shell.md)
     * [使用Python进行AMP内容更新\(Update AMP Content using Python\)](amp/amp-presentation/amp-update-cache/amp-update-cache-python.md)
-* [数据埋点\(Track engagement with analytics\)相关问题](amp/track-engagement-with-analytics.md)
+* [数据埋点\(Track engagement with analytics\)相关问题](amp/track-engagement-with-analytics/README.md)
+  * [如何通过Google Tag Manager配置Google Analytics以追踪AMP？](amp/track-engagement-with-analytics/how-to-configure-google-analytics-to-track-amp-through-google-tag-manager.md)
 
 ## PWA
 
