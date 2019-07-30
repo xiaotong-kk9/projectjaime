@@ -4,8 +4,8 @@
 
 * [AMP Github地址](https://github.com/ampproject/amphtml)
 * [AMP 官方文档](https://www.ampproject.org/docs/)
-* [AMP 官方示例](https://ampbyexample.com/)
-* [AMP Start 官方模板](https://www.ampstart.com/)
+* [AMP 官方示例](https://amp.dev/documentation/examples/)
+* [AMP Start 官方模板](https://amp.dev/documentation/templates/)
 * [AMP on Google](https://developers.google.com/amp/)
 * [Google AMP Cache](https://developers.google.com/amp/cache/)
 * [Google Analytics for AMP](https://developers.google.com/analytics/devguides/collection/amp-analytics/)
