@@ -25,7 +25,7 @@
 * [数据埋点\(Track engagement with analytics\)相关问题](amp/track-engagement-with-analytics/README.md)
   * [如何通过Google Tag Manager配置Google Analytics以追踪AMP？](amp/track-engagement-with-analytics/how-to-configure-google-analytics-to-track-amp-through-google-tag-manager.md)
 * [了解AMP\(Learn AMP\)](amp/learn/README.md)
-  * [在AMP中实战开启CORS](amp/learn/zai-amp-zhong-shi-zhan-kai-qi-cors.md)
+  * [在AMP中实战开启CORS](amp/learn/cors-in-amp-in-action.md)
 
 ## PWA
 
