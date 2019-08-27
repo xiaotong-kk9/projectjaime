@@ -4,11 +4,11 @@
 
    在 Chrome 上安装 AMP Validator 插件，需要确保所有 AMP 页面都没有报错。如果 AMP 页面有报错将不会被 AMP Cache 缓存，也不会被收录。
 
-2. AMP Cache URL \([链接](https://ampbyexample.com/advanced/using_the_google_amp_cache/#amp-cache-url-format)\)
+2. AMP Cache URL \([链接](https://developers.google.com/amp/cache/reference/acceleratedmobilepageurl/rest/v1/ampUrls/batchGet)\)
 
    使用链接中的 URL 转换工具将 AMP URL 转换为 AMP Cache URL 后访问查看页面展示是否有问题，开发者工具控制台是否有报错。
 
-3. 检查 Canonical link 和 amphtml link \([链接](https://www.ampproject.org/docs/fundamentals/discovery)\)
+3. 检查 Canonical link 和 amphtml link \([链接](https://amp.dev/documentation/guides-and-tutorials/optimize-and-measure/discovery/)\)
 
    需要确认 AMP 页面和 non-AMP 页面一一对应，canonical link 和 amphtml link 设置正确。
    
@@ -30,7 +30,7 @@
     <link rel="canonical" href="https://www.foo.com/">【canonical指向pc版首页】
   ```
 
-4. 检查跨域\([链接](https://www.ampproject.org/docs/fundamentals/amp-cors-requests#testing-cors-in-amp)\)
+4. 检查跨域\([链接](https://amp.dev/documentation/guides-and-tutorials/learn/amp-caches-and-cors/amp-cors-requests/)\)
 
    跨域设置 access-control-allow-origin 的域名可以通过 AMP Cache URL 工具转换得到（格式类似：[https://ampbyexample-com.cdn.ampproject.org](https://ampbyexample-com.cdn.ampproject.org) ），请务必不要设置为 \*，并且不要漏掉文档中列出的 header。
 
